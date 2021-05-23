@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    name: 2018011365  #���ݿ���
+    url: jdbc:mysql://localhost:3306/2018011365?useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useUnicode=true&characterEncoding=utf8 #url
+    username: root  #�û���
+    password: 4y2l2x@yyg  #����
+    driver-class-name: com.mysql.jdbc.Driver  #���ݿ���������
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #����ӳ���ļ�
+  type-aliases-package: com.example.test.bean #����ʵ����
+
+
